@@ -1,0 +1,22 @@
+
+.product-card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #e61b40;
+}
+
+button[type="button"] {
+    background-color: #c7eeee;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+ul li:hover {
+    background-color: #1918da;
+}
+

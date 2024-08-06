@@ -1,0 +1,13 @@
+h2{
+   text-align:center;
+   text-decoration:underline;
+}
+.news-article {
+    background-color: #979598; 
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 20px;
+}
+p{
+   line-height:1.6;
+   color:#333333;
+}

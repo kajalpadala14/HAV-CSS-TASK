@@ -1,0 +1,44 @@
+
+.product-card {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #fff;
+  
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.product-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.product-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.product-card span {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+
+.product-card button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+}
