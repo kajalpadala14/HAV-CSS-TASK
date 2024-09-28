@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inline-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inline-element {
+    border: 1px solid #007BFF;
+    padding: 5px;
+}
+
+.inline-block-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inline-block-element {
+    display: inline-block;
+    border: 1px solid #FF5733;
+    padding: 10px;
+}
+
+.block-container {
+    margin-bottom: 20px;
+}
+
+.block-element {
+    margin: 10px auto;
+    width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+}
+

@@ -1,0 +1,156 @@
+/* *{
+    box-sizing: border-box;
+    border: 1px solid red;
+} */
+body {
+
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 5vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: white;
+    width: 100;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    height: 100%;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 4vh;
+    width: 25vw;
+    border-width: 1px;
+}
+
+.search-bar button {
+    height: 4.3vh;
+    width: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 1px;
+    border-left: none;
+}
+
+.header-center img.mic {
+    height: 5vh;
+    margin-left: 10px;
+}
+
+.header-right img {
+    height: 5vh;
+    margin: 0 10px;
+}
+
+.header-right .profile {
+    border-radius: 50%;
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    /* height: calc(100vh-5vh); */
+    z-index: 1;
+    margin-top: 40px;
+
+}
+
+.left {
+    width: 15vw;
+    height: 100%;
+    background-color: white;
+}
+.left button{
+    border: none;
+
+}
+.home, .Short, .subscription {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.home img, .Short img, .subscription img {
+    width: 3vw;
+    height: 3vh;
+}
+
+.home h1, .Short h1, .subscription h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.right {
+    width: 85vw;
+    height: 100%;
+    background-color: white;
+}
+
+.right-top {
+    width: 100%;
+    height: 3vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.right-top button{
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.right-video {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 35px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.video-1 {
+    height: 27vh;
+    width: 20vw;
+}
+
+.video-1 iframe {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.video-1 h4{
+    font-size: 15px;
+}
+.right-top button{
+      background-color: rgb(236, 242, 245);
+      color: black;
+      text-decoration: none;
+      overflow-x: 1;
+}
